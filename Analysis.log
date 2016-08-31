@@ -1,0 +1,16 @@
+ TA2Analysis analysis linked to Acqu-to-Root interface
+
+TA2UserAnalysis:  Running PostInitialise before setting up Multi-Hit ADC's
+
+ Error in setup of class TA2UserAnalysis at command line:
+3       8000    8800
+ Child class TA2Tagger linked to TA2UserAnalysis parent
+ Child class TA2Ladder linked to TA2Tagger parent
+ PDG default: particles all photons, PDG index 22
+ Child class TA2BeamPolMon linked to TA2UserAnalysis parent
+ Child class TA2PairSpec linked to TA2BeamPolMon parent
+ Child class TA2Moeller linked to TA2BeamPolMon parent
+TA2UserAnalysis:  Reconstruction procedure enabled in event loop
+  TA2UserAnalysis End-of-Run command: FinishTE() 
+End of Run procedures enabled for TA2UserAnalysis
+

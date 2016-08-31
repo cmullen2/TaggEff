@@ -1,0 +1,17 @@
+File-Directory: /home/a2cb/acqu/acqu_user/histograms/TaggEff/
+Energy-File: 1402_EnaG_n.plot.dat
+#Output-File: 1402_TaggEff
+Plot-Log: 0
+###########################################
+##
+## August 2016 
+##
+#
+File: TaggEff_14665.root	data	BG	0
+File: TaggEff_14666.root	data	para	0
+File: TaggEff_14667.root	data	perp	0
+File: TaggEff_14668.root	data	amor	0
+File: TaggEff_14669.root	data	BG	0
+#
+
+

@@ -1,0 +1,2 @@
+Error in operation <ERROR ARFile_t: fopen failed, FileName: ./data/TaggEff.C> of class TAcquRoot at command line:
+./data/TaggEff.C FATAL ERROR...exiting AcquRoot

@@ -1,0 +1,2 @@
+Error in operation <ERROR ARFile_t: fopen failed, FileName: data/Offline-TAPS.dat> of class TAcquRoot at command line:
+data/Offline-TAPS.dat FATAL ERROR...exiting AcquRoot

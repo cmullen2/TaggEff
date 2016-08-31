@@ -1,0 +1,790 @@
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.34/23   7 November 2014   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.34/23 (v5-34-23@v5-34-23, Nov 07 2014, 15:13:40 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+
+
+
+  ****** Acqu - Root Analyser ******
+
+          Version: 4v6
+            Dated: 09.07.13
+   Linked to Root: 5.34/23
+
+
+   See .log files for all AcquRoot progress/error messages
+
+
+Warning in <TDatabasePDG::TDatabasePDG>: object already instantiated
+Error in <TA2UserControl::ProcessLine>: macro /disk/user/afzal/Mainz/acqu/acqu_user/root/macros/EndFileMacro.C not found in path .:/cern/root/v5.34.23/exe/macros:
+
+
+
+  ****** GENERAL INFORMATION ******
+
+   ACQU data name      : scratch/CBTaggTAPS_12048.dat
+   Analysis type       : Online
+   Analysis input      : Raw data
+   Run number          : 12048
+   Analysis class      : TA2UserAnalysis
+   Analysis setup      : AR-Analysis.dat
+   Physics class       : TA2MyCaLib
+   Physics name        : CaLib
+   Max ADC             : 29321
+   Max Scaler          : 8706
+
+
+
+
+  ****** DETECTOR LIST ******
+
+   Loaded Detectors:
+
+   TAGG (TA2Tagger)
+     FPD (TA2Ladder)
+   CB (TA2CentralApparatus)
+     NaI (TA2CalArray)
+     PID (TA2PlasticPID)
+     MWPC (TA2CylMwpc)
+   TAPS (TA2Taps)
+     VETO (TA2TAPS_Veto)
+     BaF2PWO (TA2TAPS_BaF2)
+
+
+
+
+  ****** PHYSICS ANALYSIS ******
+
+   Name       : CaLib
+   Class Name : TA2MyCaLib
+
+
+
+
+  ****** HARDWARE TRIGGER ******
+
+   L1 Bits
+   CB sum      : 0x0001
+   TAPS OR     : 0x0008
+   TAPS M2     : 0x0040
+   Pulser      : 0x0080
+   TAPS Pulser : 0x0010
+
+   L2 Bits
+   M1(+)       : 0x0000
+   M2(+)       : 0x0000
+   M3(+)       : 0x0000
+   M4+         : 0x0000
+
+
+
+  ****** SOFTWARE TRIGGER ******
+
+   Total multiplicity        : 0 or more (TAPS included)
+   TAPS alone multiplicity   : 0 or more
+   CB sum                    :   0.00 MeV (No CDF for MC)
+   CB NaI mean gain          : 0.077053 MeV/Ch
+   CB segment LED threshold  :   0.00 MeV
+   TAPS LED1 threshold       :   0.00 MeV
+   TAPS LED2 threshold       :   0.00 MeV
+
+
+
+  0 Bad tagger channel(s): 
+
+  0 Bad CB cluster center(s): 
+
+  0 Bad TAPS cluster center(s): 
+
+  BaF2 CFD Pattern 'TAPSCFDPattern' found at index 0
+  BaF2 LED1 Pattern 'TAPSLED1Pattern' found at index 1
+  BaF2 LED2 Pattern 'TAPSLED2Pattern' found at index 2
+  Veto LED Pattern 'TAPSVetoPattern' found at index 3
+
+
+  ****** ENABLED CALIBRATION HISTOGRAMS ******
+
+   3 calibration(s) enabled.
+
+   - CB energy
+   - TAPS energy
+   - Time Cut: -inf - inf ns
+     - for Ring Numbers smaller than 1000
+   - TAPS LED
+
+Events: 100000      Events Accepted: 99999
+Events: 200000      Events Accepted: 199999
+Events: 300000      Events Accepted: 299999
+Events: 400000      Events Accepted: 399999
+Events: 500000      Events Accepted: 499999
+Events: 600000      Events Accepted: 599999
+Events: 700000      Events Accepted: 699999
+Events: 800000      Events Accepted: 799999
+Events: 900000      Events Accepted: 899999
+Events: 1000000      Events Accepted: 999999
+Events: 1100000      Events Accepted: 1099999
+Events: 1200000      Events Accepted: 1199999
+Events: 1300000      Events Accepted: 1299999
+Events: 1400000      Events Accepted: 1399999
+Events: 1500000      Events Accepted: 1499999
+Events: 1600000      Events Accepted: 1599999
+Events: 1700000      Events Accepted: 1699999
+Events: 1800000      Events Accepted: 1799999
+Events: 1900000      Events Accepted: 1899999
+Events: 2000000      Events Accepted: 1999999
+Events: 2100000      Events Accepted: 2099999
+Events: 2200000      Events Accepted: 2199999
+Events: 2300000      Events Accepted: 2299999
+Events: 2400000      Events Accepted: 2399999
+Events: 2500000      Events Accepted: 2499999
+Events: 2600000      Events Accepted: 2599999
+Events: 2700000      Events Accepted: 2699999
+Events: 2800000      Events Accepted: 2799999
+Events: 2900000      Events Accepted: 2899999
+Events: 3000000      Events Accepted: 2999999
+Events: 3100000      Events Accepted: 3099999
+Events: 3200000      Events Accepted: 3199999
+Events: 3300000      Events Accepted: 3299999
+Events: 3400000      Events Accepted: 3399999
+Events: 3500000      Events Accepted: 3499999
+Events: 3600000      Events Accepted: 3599999
+Events: 3700000      Events Accepted: 3699999
+Events: 3800000      Events Accepted: 3799999
+Events: 3900000      Events Accepted: 3899999
+Events: 4000000      Events Accepted: 3999999
+Events: 4100000      Events Accepted: 4099999
+Events: 4200000      Events Accepted: 4199999
+Events: 4300000      Events Accepted: 4299999
+Events: 4400000      Events Accepted: 4399999
+Error: Function EndFileMacro() is not defined in current scope  (tmpfile):1:
+*** Interpreter error recovered ***
+Error: Function EndFileMacro() is not defined in current scope  (tmpfile):1:
+*** Interpreter error recovered ***
+Error in <TBufferFile::WriteByteCount>: bytecount too large (more than 1073741822)
+Error in <TBufferFile::WriteByteCount>: bytecount too large (more than 1073741822)
+Events: 4416538      Events Accepted: 4416538
+End-of-Run macro executing
+All histograms saved to output/output_acqu/ARHist_CBTaggTAPS_12048.root
+Sort_Thread: Real Time = 529.78 seconds Cpu Time = 547.32 seconds
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.34/23   7 November 2014   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.34/23 (v5-34-23@v5-34-23, Nov 07 2014, 15:13:40 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+
+
+
+  ****** Acqu - Root Analyser ******
+
+          Version: 4v6
+            Dated: 09.07.13
+   Linked to Root: 5.34/23
+
+
+   See .log files for all AcquRoot progress/error messages
+
+
+Warning in <TDatabasePDG::TDatabasePDG>: object already instantiated
+Error in <TA2UserControl::ProcessLine>: macro /disk/user/afzal/Mainz/acqu/acqu_user/root/macros/EndFileMacro.C not found in path .:/cern/root/v5.34.23/exe/macros:
+
+
+
+  ****** GENERAL INFORMATION ******
+
+   ACQU data name      : scratch/CBTaggTAPS_12090.dat
+   Analysis type       : Online
+   Analysis input      : Raw data
+   Run number          : 12090
+   Analysis class      : TA2UserAnalysis
+   Analysis setup      : AR-Analysis.dat
+   Physics class       : TA2MyCaLib
+   Physics name        : CaLib
+   Max ADC             : 29321
+   Max Scaler          : 8706
+
+
+
+
+  ****** DETECTOR LIST ******
+
+   Loaded Detectors:
+
+   TAGG (TA2Tagger)
+     FPD (TA2Ladder)
+   CB (TA2CentralApparatus)
+     NaI (TA2CalArray)
+     PID (TA2PlasticPID)
+     MWPC (TA2CylMwpc)
+   TAPS (TA2Taps)
+     VETO (TA2TAPS_Veto)
+     BaF2PWO (TA2TAPS_BaF2)
+
+
+
+
+  ****** PHYSICS ANALYSIS ******
+
+   Name       : CaLib
+   Class Name : TA2MyCaLib
+
+
+
+
+  ****** HARDWARE TRIGGER ******
+
+   L1 Bits
+   CB sum      : 0x0001
+   TAPS OR     : 0x0008
+   TAPS M2     : 0x0040
+   Pulser      : 0x0080
+   TAPS Pulser : 0x0010
+
+   L2 Bits
+   M1(+)       : 0x0000
+   M2(+)       : 0x0000
+   M3(+)       : 0x0000
+   M4+         : 0x0000
+
+
+
+  ****** SOFTWARE TRIGGER ******
+
+   Total multiplicity        : 0 or more (TAPS included)
+   TAPS alone multiplicity   : 0 or more
+   CB sum                    :   0.00 MeV (No CDF for MC)
+   CB NaI mean gain          : 0.077053 MeV/Ch
+   CB segment LED threshold  :   0.00 MeV
+   TAPS LED1 threshold       :   0.00 MeV
+   TAPS LED2 threshold       :   0.00 MeV
+
+
+
+  0 Bad tagger channel(s): 
+
+  0 Bad CB cluster center(s): 
+
+  0 Bad TAPS cluster center(s): 
+
+  BaF2 CFD Pattern 'TAPSCFDPattern' found at index 0
+  BaF2 LED1 Pattern 'TAPSLED1Pattern' found at index 1
+  BaF2 LED2 Pattern 'TAPSLED2Pattern' found at index 2
+  Veto LED Pattern 'TAPSVetoPattern' found at index 3
+
+
+  ****** ENABLED CALIBRATION HISTOGRAMS ******
+
+   3 calibration(s) enabled.
+
+   - CB energy
+   - TAPS energy
+   - Time Cut: -inf - inf ns
+     - for Ring Numbers smaller than 1000
+   - TAPS LED
+
+Events: 100000      Events Accepted: 99999
+Events: 200000      Events Accepted: 199999
+Events: 300000      Events Accepted: 299999
+Events: 400000      Events Accepted: 399999
+Events: 500000      Events Accepted: 499999
+Events: 600000      Events Accepted: 599999
+Events: 700000      Events Accepted: 699999
+Events: 800000      Events Accepted: 799999
+Events: 900000      Events Accepted: 899999
+Events: 1000000      Events Accepted: 999999
+Events: 1100000      Events Accepted: 1099999
+Events: 1200000      Events Accepted: 1199999
+Events: 1300000      Events Accepted: 1299999
+Events: 1400000      Events Accepted: 1399999
+Events: 1500000      Events Accepted: 1499999
+Events: 1600000      Events Accepted: 1599999
+Events: 1700000      Events Accepted: 1699999
+Events: 1800000      Events Accepted: 1799999
+Events: 1900000      Events Accepted: 1899999
+Events: 2000000      Events Accepted: 1999999
+Events: 2100000      Events Accepted: 2099999
+Events: 2200000      Events Accepted: 2199999
+Events: 2300000      Events Accepted: 2299999
+Events: 2400000      Events Accepted: 2399999
+Events: 2500000      Events Accepted: 2499999
+Events: 2600000      Events Accepted: 2599999
+Events: 2700000      Events Accepted: 2699999
+Events: 2800000      Events Accepted: 2799999
+Events: 2900000      Events Accepted: 2899999
+Events: 3000000      Events Accepted: 2999999
+Events: 3100000      Events Accepted: 3099999
+Events: 3200000      Events Accepted: 3199999
+Events: 3300000      Events Accepted: 3299999
+Events: 3400000      Events Accepted: 3399999
+Events: 3500000      Events Accepted: 3499999
+Events: 3600000      Events Accepted: 3599999
+Events: 3700000      Events Accepted: 3699999
+Events: 3800000      Events Accepted: 3799999
+Events: 3900000      Events Accepted: 3899999
+Events: 4000000      Events Accepted: 3999999
+Events: 4100000      Events Accepted: 4099999
+Events: 4200000      Events Accepted: 4199999
+Events: 4300000      Events Accepted: 4299999
+Events: 4400000      Events Accepted: 4399999
+Events: 4500000      Events Accepted: 4499999
+Events: 4600000      Events Accepted: 4599999
+Events: 4700000      Events Accepted: 4699999
+Events: 4800000      Events Accepted: 4799999
+Events: 4900000      Events Accepted: 4899999
+Events: 5000000      Events Accepted: 4999999
+Events: 5100000      Events Accepted: 5099999
+Events: 5200000      Events Accepted: 5199999
+Events: 5300000      Events Accepted: 5299999
+Events: 5400000      Events Accepted: 5399999
+Events: 5500000      Events Accepted: 5499999
+Events: 5600000      Events Accepted: 5599999
+Events: 5700000      Events Accepted: 5699999
+Events: 5800000      Events Accepted: 5799999
+Events: 5900000      Events Accepted: 5899999
+Events: 6000000      Events Accepted: 5999999
+Events: 6100000      Events Accepted: 6099999
+Events: 6200000      Events Accepted: 6199999
+Events: 6300000      Events Accepted: 6299999
+Events: 6400000      Events Accepted: 6399999
+Events: 6500000      Events Accepted: 6499999
+Events: 6600000      Events Accepted: 6599999
+Events: 6700000      Events Accepted: 6699999
+Error: Function EndFileMacro() is not defined in current scope  (tmpfile):1:
+*** Interpreter error recovered ***
+Error: Function EndFileMacro() is not defined in current scope  (tmpfile):1:
+*** Interpreter error recovered ***
+Error in <TBufferFile::WriteByteCount>: bytecount too large (more than 1073741822)
+Error in <TBufferFile::WriteByteCount>: bytecount too large (more than 1073741822)
+Events: 6754358      Events Accepted: 6754358
+End-of-Run macro executing
+All histograms saved to output/output_acqu/ARHist_CBTaggTAPS_12090.root
+Sort_Thread: Real Time = 792.85 seconds Cpu Time = 825.21 seconds
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.34/23   7 November 2014   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.34/23 (v5-34-23@v5-34-23, Nov 07 2014, 15:13:40 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+
+
+
+  ****** Acqu - Root Analyser ******
+
+          Version: 4v6
+            Dated: 09.07.13
+   Linked to Root: 5.34/23
+
+
+   See .log files for all AcquRoot progress/error messages
+
+
+Warning in <TDatabasePDG::TDatabasePDG>: object already instantiated
+Error in <TA2UserControl::ProcessLine>: macro /disk/user/afzal/Mainz/acqu/acqu_user/root/macros/EndFileMacro.C not found in path .:/cern/root/v5.34.23/exe/macros:
+
+
+
+  ****** GENERAL INFORMATION ******
+
+   ACQU data name      : scratch/CBTaggTAPS_12127.dat
+   Analysis type       : Online
+   Analysis input      : Raw data
+   Run number          : 12127
+   Analysis class      : TA2UserAnalysis
+   Analysis setup      : AR-Analysis.dat
+   Physics class       : TA2MyCaLib
+   Physics name        : CaLib
+   Max ADC             : 29321
+   Max Scaler          : 8706
+
+
+
+
+  ****** DETECTOR LIST ******
+
+   Loaded Detectors:
+
+   TAGG (TA2Tagger)
+     FPD (TA2Ladder)
+   CB (TA2CentralApparatus)
+     NaI (TA2CalArray)
+     PID (TA2PlasticPID)
+     MWPC (TA2CylMwpc)
+   TAPS (TA2Taps)
+     VETO (TA2TAPS_Veto)
+     BaF2PWO (TA2TAPS_BaF2)
+
+
+
+
+  ****** PHYSICS ANALYSIS ******
+
+   Name       : CaLib
+   Class Name : TA2MyCaLib
+
+
+
+
+  ****** HARDWARE TRIGGER ******
+
+   L1 Bits
+   CB sum      : 0x0001
+   TAPS OR     : 0x0008
+   TAPS M2     : 0x0040
+   Pulser      : 0x0080
+   TAPS Pulser : 0x0010
+
+   L2 Bits
+   M1(+)       : 0x0000
+   M2(+)       : 0x0000
+   M3(+)       : 0x0000
+   M4+         : 0x0000
+
+
+
+  ****** SOFTWARE TRIGGER ******
+
+   Total multiplicity        : 0 or more (TAPS included)
+   TAPS alone multiplicity   : 0 or more
+   CB sum                    :   0.00 MeV (No CDF for MC)
+   CB NaI mean gain          : 0.077053 MeV/Ch
+   CB segment LED threshold  :   0.00 MeV
+   TAPS LED1 threshold       :   0.00 MeV
+   TAPS LED2 threshold       :   0.00 MeV
+
+
+
+  0 Bad tagger channel(s): 
+
+  0 Bad CB cluster center(s): 
+
+  0 Bad TAPS cluster center(s): 
+
+  BaF2 CFD Pattern 'TAPSCFDPattern' found at index 0
+  BaF2 LED1 Pattern 'TAPSLED1Pattern' found at index 1
+  BaF2 LED2 Pattern 'TAPSLED2Pattern' found at index 2
+  Veto LED Pattern 'TAPSVetoPattern' found at index 3
+
+
+  ****** ENABLED CALIBRATION HISTOGRAMS ******
+
+   3 calibration(s) enabled.
+
+   - CB energy
+   - TAPS energy
+   - Time Cut: -inf - inf ns
+     - for Ring Numbers smaller than 1000
+   - TAPS LED
+
+Events: 100000      Events Accepted: 99999
+Events: 200000      Events Accepted: 199999
+Events: 300000      Events Accepted: 299999
+Events: 400000      Events Accepted: 399999
+Events: 500000      Events Accepted: 499999
+Events: 600000      Events Accepted: 599999
+Events: 700000      Events Accepted: 699999
+Events: 800000      Events Accepted: 799999
+Events: 900000      Events Accepted: 899999
+Events: 1000000      Events Accepted: 999999
+Events: 1100000      Events Accepted: 1099999
+Events: 1200000      Events Accepted: 1199999
+Events: 1300000      Events Accepted: 1299999
+Events: 1400000      Events Accepted: 1399999
+Events: 1500000      Events Accepted: 1499999
+Events: 1600000      Events Accepted: 1599999
+Events: 1700000      Events Accepted: 1699999
+Events: 1800000      Events Accepted: 1799999
+Events: 1900000      Events Accepted: 1899999
+Events: 2000000      Events Accepted: 1999999
+Events: 2100000      Events Accepted: 2099999
+Events: 2200000      Events Accepted: 2199999
+Events: 2300000      Events Accepted: 2299999
+Events: 2400000      Events Accepted: 2399999
+Events: 2500000      Events Accepted: 2499999
+Events: 2600000      Events Accepted: 2599999
+Events: 2700000      Events Accepted: 2699999
+Events: 2800000      Events Accepted: 2799999
+Events: 2900000      Events Accepted: 2899999
+Events: 3000000      Events Accepted: 2999999
+Events: 3100000      Events Accepted: 3099999
+Events: 3200000      Events Accepted: 3199999
+Events: 3300000      Events Accepted: 3299999
+Events: 3400000      Events Accepted: 3399999
+Events: 3500000      Events Accepted: 3499999
+Events: 3600000      Events Accepted: 3599999
+Events: 3700000      Events Accepted: 3699999
+Events: 3800000      Events Accepted: 3799999
+Events: 3900000      Events Accepted: 3899999
+Events: 4000000      Events Accepted: 3999999
+Events: 4100000      Events Accepted: 4099999
+Events: 4200000      Events Accepted: 4199999
+Events: 4300000      Events Accepted: 4299999
+Events: 4400000      Events Accepted: 4399999
+Events: 4500000      Events Accepted: 4499999
+Events: 4600000      Events Accepted: 4599999
+Events: 4700000      Events Accepted: 4699999
+Events: 4800000      Events Accepted: 4799999
+Events: 4900000      Events Accepted: 4899999
+Events: 5000000      Events Accepted: 4999999
+Events: 5100000      Events Accepted: 5099999
+Events: 5200000      Events Accepted: 5199999
+Events: 5300000      Events Accepted: 5299999
+Events: 5400000      Events Accepted: 5399999
+Events: 5500000      Events Accepted: 5499999
+Events: 5600000      Events Accepted: 5599999
+Events: 5700000      Events Accepted: 5699999
+Events: 5800000      Events Accepted: 5799999
+Events: 5900000      Events Accepted: 5899999
+Events: 6000000      Events Accepted: 5999999
+Events: 6100000      Events Accepted: 6099999
+Events: 6200000      Events Accepted: 6199999
+Events: 6300000      Events Accepted: 6299999
+Events: 6400000      Events Accepted: 6399999
+Events: 6500000      Events Accepted: 6499999
+Events: 6600000      Events Accepted: 6599999
+Events: 6700000      Events Accepted: 6699999
+Events: 6800000      Events Accepted: 6799999
+Error: Function EndFileMacro() is not defined in current scope  (tmpfile):1:
+*** Interpreter error recovered ***
+Error: Function EndFileMacro() is not defined in current scope  (tmpfile):1:
+*** Interpreter error recovered ***
+Error in <TBufferFile::WriteByteCount>: bytecount too large (more than 1073741822)
+Error in <TBufferFile::WriteByteCount>: bytecount too large (more than 1073741822)
+Events: 6801540      Events Accepted: 6801540
+End-of-Run macro executing
+All histograms saved to output/output_acqu/ARHist_CBTaggTAPS_12127.root
+Sort_Thread: Real Time = 791.04 seconds Cpu Time = 817.75 seconds
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.34/23   7 November 2014   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.34/23 (v5-34-23@v5-34-23, Nov 07 2014, 15:13:40 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+
+
+
+  ****** Acqu - Root Analyser ******
+
+          Version: 4v6
+            Dated: 09.07.13
+   Linked to Root: 5.34/23
+
+
+   See .log files for all AcquRoot progress/error messages
+
+
+Warning in <TDatabasePDG::TDatabasePDG>: object already instantiated
+Error in <TA2UserControl::ProcessLine>: macro /disk/user/afzal/Mainz/acqu/acqu_user/root/macros/EndFileMacro.C not found in path .:/cern/root/v5.34.23/exe/macros:
+
+
+
+  ****** GENERAL INFORMATION ******
+
+   ACQU data name      : scratch/CBTaggTAPS_12131.dat
+   Analysis type       : Online
+   Analysis input      : Raw data
+   Run number          : 12131
+   Analysis class      : TA2UserAnalysis
+   Analysis setup      : AR-Analysis.dat
+   Physics class       : TA2MyCaLib
+   Physics name        : CaLib
+   Max ADC             : 29321
+   Max Scaler          : 8706
+
+
+
+
+  ****** DETECTOR LIST ******
+
+   Loaded Detectors:
+
+   TAGG (TA2Tagger)
+     FPD (TA2Ladder)
+   CB (TA2CentralApparatus)
+     NaI (TA2CalArray)
+     PID (TA2PlasticPID)
+     MWPC (TA2CylMwpc)
+   TAPS (TA2Taps)
+     VETO (TA2TAPS_Veto)
+     BaF2PWO (TA2TAPS_BaF2)
+
+
+
+
+  ****** PHYSICS ANALYSIS ******
+
+   Name       : CaLib
+   Class Name : TA2MyCaLib
+
+
+
+
+  ****** HARDWARE TRIGGER ******
+
+   L1 Bits
+   CB sum      : 0x0001
+   TAPS OR     : 0x0008
+   TAPS M2     : 0x0040
+   Pulser      : 0x0080
+   TAPS Pulser : 0x0010
+
+   L2 Bits
+   M1(+)       : 0x0000
+   M2(+)       : 0x0000
+   M3(+)       : 0x0000
+   M4+         : 0x0000
+
+
+
+  ****** SOFTWARE TRIGGER ******
+
+   Total multiplicity        : 0 or more (TAPS included)
+   TAPS alone multiplicity   : 0 or more
+   CB sum                    :   0.00 MeV (No CDF for MC)
+   CB NaI mean gain          : 0.077053 MeV/Ch
+   CB segment LED threshold  :   0.00 MeV
+   TAPS LED1 threshold       :   0.00 MeV
+   TAPS LED2 threshold       :   0.00 MeV
+
+
+
+  0 Bad tagger channel(s): 
+
+  0 Bad CB cluster center(s): 
+
+  0 Bad TAPS cluster center(s): 
+
+  BaF2 CFD Pattern 'TAPSCFDPattern' found at index 0
+  BaF2 LED1 Pattern 'TAPSLED1Pattern' found at index 1
+  BaF2 LED2 Pattern 'TAPSLED2Pattern' found at index 2
+  Veto LED Pattern 'TAPSVetoPattern' found at index 3
+
+
+  ****** ENABLED CALIBRATION HISTOGRAMS ******
+
+   3 calibration(s) enabled.
+
+   - CB energy
+   - TAPS energy
+   - Time Cut: -inf - inf ns
+     - for Ring Numbers smaller than 1000
+   - TAPS LED
+
+Events: 100000      Events Accepted: 99999
+Events: 200000      Events Accepted: 199999
+Events: 300000      Events Accepted: 299999
+Events: 400000      Events Accepted: 399999
+Events: 500000      Events Accepted: 499999
+Events: 600000      Events Accepted: 599999
+Events: 700000      Events Accepted: 699999
+Events: 800000      Events Accepted: 799999
+Events: 900000      Events Accepted: 899999
+Events: 1000000      Events Accepted: 999999
+Events: 1100000      Events Accepted: 1099999
+Events: 1200000      Events Accepted: 1199999
+Events: 1300000      Events Accepted: 1299999
+Events: 1400000      Events Accepted: 1399999
+Events: 1500000      Events Accepted: 1499999
+Events: 1600000      Events Accepted: 1599999
+Events: 1700000      Events Accepted: 1699999
+Events: 1800000      Events Accepted: 1799999
+Events: 1900000      Events Accepted: 1899999
+Events: 2000000      Events Accepted: 1999999
+Events: 2100000      Events Accepted: 2099999
+Events: 2200000      Events Accepted: 2199999
+Events: 2300000      Events Accepted: 2299999
+Events: 2400000      Events Accepted: 2399999
+Events: 2500000      Events Accepted: 2499999
+Events: 2600000      Events Accepted: 2599999
+Events: 2700000      Events Accepted: 2699999
+Events: 2800000      Events Accepted: 2799999
+Events: 2900000      Events Accepted: 2899999
+Events: 3000000      Events Accepted: 2999999
+Events: 3100000      Events Accepted: 3099999
+Events: 3200000      Events Accepted: 3199999
+Events: 3300000      Events Accepted: 3299999
+Events: 3400000      Events Accepted: 3399999
+Events: 3500000      Events Accepted: 3499999
+Events: 3600000      Events Accepted: 3599999
+Events: 3700000      Events Accepted: 3699999
+Events: 3800000      Events Accepted: 3799999
+Events: 3900000      Events Accepted: 3899999
+Events: 4000000      Events Accepted: 3999999
+Events: 4100000      Events Accepted: 4099999
+Events: 4200000      Events Accepted: 4199999
+Events: 4300000      Events Accepted: 4299999
+Events: 4400000      Events Accepted: 4399999
+Events: 4500000      Events Accepted: 4499999
+Events: 4600000      Events Accepted: 4599999
+Events: 4700000      Events Accepted: 4699999
+Events: 4800000      Events Accepted: 4799999
+Events: 4900000      Events Accepted: 4899999
+Events: 5000000      Events Accepted: 4999999
+Events: 5100000      Events Accepted: 5099999
+Events: 5200000      Events Accepted: 5199999
+Events: 5300000      Events Accepted: 5299999
+Events: 5400000      Events Accepted: 5399999
+Events: 5500000      Events Accepted: 5499999
+Events: 5600000      Events Accepted: 5599999
+Events: 5700000      Events Accepted: 5699999
+Events: 5800000      Events Accepted: 5799999
+Events: 5900000      Events Accepted: 5899999
+Events: 6000000      Events Accepted: 5999999
+Events: 6100000      Events Accepted: 6099999
+Events: 6200000      Events Accepted: 6199999
+Events: 6300000      Events Accepted: 6299999
+Events: 6400000      Events Accepted: 6399999
+Events: 6500000      Events Accepted: 6499999
+Events: 6600000      Events Accepted: 6599999
+Events: 6700000      Events Accepted: 6699999
+Error: Function EndFileMacro() is not defined in current scope  (tmpfile):1:
+*** Interpreter error recovered ***
+Error: Function EndFileMacro() is not defined in current scope  (tmpfile):1:
+*** Interpreter error recovered ***
+Error in <TBufferFile::WriteByteCount>: bytecount too large (more than 1073741822)
+Error in <TBufferFile::WriteByteCount>: bytecount too large (more than 1073741822)
+Events: 6771036      Events Accepted: 6771036
+End-of-Run macro executing
+All histograms saved to output/output_acqu/ARHist_CBTaggTAPS_12131.root
+Sort_Thread: Real Time = 784.03 seconds Cpu Time = 816.13 seconds

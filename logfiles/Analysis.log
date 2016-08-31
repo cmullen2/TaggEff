@@ -1,0 +1,75 @@
+ TA2Analysis analysis linked to Acqu-to-Root interface
+
+ TA2UserAnalysis:  Running PostInitialise before setting up Multi-Hit ADC's
+
+ Child class TA2Tagger linked to TA2UserAnalysis parent
+ Child class TA2Ladder linked to TA2Tagger parent
+ PDG default: particles all photons, PDG index 22
+ Child class TA2CentralApparatus linked to TA2UserAnalysis parent
+ Child class TA2CalArray linked to TA2CentralApparatus parent
+ Child class TA2PlasticPID linked to TA2CentralApparatus parent
+ Child class TA2CylMwpc linked to TA2CentralApparatus parent
+ Error in operation <Load-Variable...NULL variable pointer supplied> of class TA2CylMwpc at command line:
+TrackTheta
+ Error in operation <Load-Variable...NULL variable pointer supplied> of class TA2CylMwpc at command line:
+TrackPhi
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500  0 DeltaE 100 0 5 0
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500  1 DeltaE 100 0 5 1
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500  2 DeltaE 100 0 5 2
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500  3 DeltaE 100 0 5 3
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500  4 DeltaE 100 0 5 4
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500  5 DeltaE 100 0 5 5
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500  6 DeltaE 100 0 5 6
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500  7 DeltaE 100 0 5 7
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500  8 DeltaE 100 0 5 8
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500  9 DeltaE 100 0 5 9
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 10 DeltaE 100 0 5 10
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 11 DeltaE 100 0 5 11
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 12 DeltaE 100 0 5 12
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 13 DeltaE 100 0 5 13
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 14 DeltaE 100 0 5 14
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 15 DeltaE 100 0 5 15
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 16 DeltaE 100 0 5 16
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 17 DeltaE 100 0 5 17
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 18 DeltaE 100 0 5 18
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 19 DeltaE 100 0 5 19
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 20 DeltaE 100 0 5 20
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 21 DeltaE 100 0 5 21
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 22 DeltaE 100 0 5 22
+ Error in operation <Unknown X-variable for histogram> of class TA2CentralApparatus at command line:
+2D Echarged 100 0 500 23 DeltaE 100 0 5 23
+ Child class TA2Taps linked to TA2UserAnalysis parent
+ Child class TA2TAPS_Veto linked to TA2Taps parent
+ Child class TA2TAPS_BaF2 linked to TA2Taps parent
+ TA2UserAnalysis:  Reconstruction procedure enabled in event loop
+ TA2UserAnalysis:  Physics procedure enabled in event loop
+ TA2UserAnalysis periodic command: PeriodMacro()   Interval set to 100000
+ TA2UserAnalysis End-of-file command: EndFileMacro() 
+End of File procedures enabled for TA2UserAnalysis
+
+ TA2UserAnalysis End-of-Run command: FinishBatch() 
+End of Run procedures enabled for TA2UserAnalysis
+

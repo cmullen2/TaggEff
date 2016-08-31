@@ -1,0 +1,596 @@
+File-Directory: /w/work14/roddym/TaggEff/
+#File-Directory: /w/work14/roddym/TaggEff/2015-09_G_E_Proton/
+Energy-File: 1402_EnaG_n.plot.dat
+#Output-File: 1402_TaggEff
+Plot-Log: 0
+###########################################
+##
+## November 2013 G & E on the Proton 
+##
+#File: TaggEff_313.out.root	data	BG	
+#File: TaggEff_314.out.root	data		
+#File: TaggEff_315.out.root	data		
+#File: TaggEff_316.out.root	data		
+#
+File: TaggEff_338.out.root	data	BG	0
+File: TaggEff_339.out.root	data	amor	0
+File: TaggEff_340.out.root	data	para	0
+File: TaggEff_341.out.root	data	perp	0
+File: TaggEff_342.out.root	data	BG	0
+#
+#File: TaggEff_410.out.root	data	BG	1	 !!! Merged with run 412 to create new 412
+#File: TaggEff_414.out.root	data	para	1	 !!! Merged with run 419 to create new 419
+#File: TaggEff_415.out.root	data	perp	1	 !!! Merged with run 417 to create new 417
+#File: TaggEff_411.out.root	data		1
+File: TaggEff_412.out.root	data	BG	1
+File: TaggEff_413.out.root	data	amor	1
+File: TaggEff_417.out.root	data	perp	1
+File: TaggEff_419.out.root	data	para	1
+File: TaggEff_420.out.root	data	BG	1
+#
+##File: TaggEff_471.out.root	data	BG	
+###File: TaggEff_472.out.root	data		
+###File: TaggEff_473.out.root	data		
+###File: TaggEff_474.out.root	data		
+##File: TaggEff_475.out.root	data	BG	
+##File: TaggEff_476.out.root	data	para	
+###File: TaggEff_477.out.root	data		
+##File: TaggEff_478.out.root	data	perp	
+###File: TaggEff_479.out.root	data		
+##File: TaggEff_480.out.root	data	amor	
+###File: TaggEff_481.out.root	data	BG		Error with AcquRoot
+###File: TaggEff_482.out.root	data		
+#
+File: TaggEff_533.out.root	data	BG	2
+File: TaggEff_534.out.root	data	amor	2
+File: TaggEff_535.out.root	data	para	2
+File: TaggEff_536.out.root	data	perp	2
+File: TaggEff_537.out.root	data	BG	2
+#
+File: TaggEff_582.out.root	data	BG	3
+File: TaggEff_583.out.root	data	para	3
+File: TaggEff_584.out.root	data	perp	3
+File: TaggEff_585.out.root	data	amor	3
+File: TaggEff_586.out.root	data	BG	3
+#
+File: TaggEff_636.out.root	data	BG	4
+File: TaggEff_637.out.root	data	perp	4
+File: TaggEff_638.out.root	data	para	4
+File: TaggEff_639.out.root	data	amor	4
+File: TaggEff_640.out.root	data	BG	4
+#
+File: TaggEff_686.out.root	data	BG	5
+File: TaggEff_687.out.root	data	perp	5
+File: TaggEff_688.out.root	data	para	5
+File: TaggEff_689.out.root	data	amor	5
+File: TaggEff_690.out.root	data	BG	5
+#
+File: TaggEff_737.out.root	data	BG	6
+File: TaggEff_738.out.root	data	perp	6
+File: TaggEff_739.out.root	data	para	6
+File: TaggEff_740.out.root	data	amor	6
+##File: TaggEff_741.out.root	data		
+File: TaggEff_742.out.root	data	BG	6
+#
+##File: TaggEff_788.out.root	data		
+File: TaggEff_789.out.root	data	BG	7
+File: TaggEff_790.out.root	data	perp	7
+##File: TaggEff_791.out.root	data	para		 Stopped run due to PB rates being too low (1 min run)
+File: TaggEff_792.out.root	data	para	7
+File: TaggEff_793.out.root	data	amor	7
+File: TaggEff_794.out.root	data	BG	7
+##
+##File: TaggEff_891.out.root	data	BG	
+##File: TaggEff_892.out.root	data	para	
+##File: TaggEff_893.out.root	data	perp	
+##File: TaggEff_894.out.root	data	perp	
+##File: TaggEff_895.out.root	data	amor	
+##File: TaggEff_896.out.root	data	BG	
+#
+##File: TaggEff_900.out.root	data	
+#
+File: TaggEff_999.out.root	data	BG	8
+File: TaggEff_1000.out.root	data	para	8
+File: TaggEff_1001.out.root	data	perp	8
+File: TaggEff_1002.out.root	data	amor	8
+File: TaggEff_1003.out.root	data	BG	8
+#
+File: TaggEff_1061.out.root	data	BG	9
+File: TaggEff_1062.out.root	data	para	9
+File: TaggEff_1063.out.root	data	perp	9
+File: TaggEff_1064.out.root	data	amor	9
+File: TaggEff_1066.out.root	data	BG	9
+#
+File: TaggEff_1109.out.root	data	BG	10
+###File: TaggEff_1110.out.root	data	para		Maybe a bad run
+File: TaggEff_1111.out.root	data	perp	10
+File: TaggEff_1112.out.root	data	para	10
+File: TaggEff_1113.out.root	data	amor	10
+File: TaggEff_1114.out.root	data	BG	10
+#
+File: TaggEff_1157.out.root	data	BG	11
+File: TaggEff_1158.out.root	data	para	11
+File: TaggEff_1159.out.root	data	perp	11
+File: TaggEff_1160.out.root	data	amor	11
+File: TaggEff_1161.out.root	data	BG	11
+#
+File: TaggEff_1225.out.root	data	BG	12
+File: TaggEff_1226.out.root	data	perp	12
+File: TaggEff_1227.out.root	data	para	12
+File: TaggEff_1229.out.root	data	amor	12
+File: TaggEff_1230.out.root	data	BG	12
+#
+File: TaggEff_1275.out.root	data	BG	13
+File: TaggEff_1276.out.root	data	para	13
+File: TaggEff_1277.out.root	data	perp	13
+File: TaggEff_1278.out.root	data	amor	13
+File: TaggEff_1279.out.root	data	BG	13
+#
+File: TaggEff_1314.out.root	data	BG	14
+File: TaggEff_1315.out.root	data	para	14
+File: TaggEff_1316.out.root	data	perp	14
+File: TaggEff_1317.out.root	data	amor	14
+File: TaggEff_1318.out.root	data	BG	14
+##
+##
+## G & E on the Neutron - Feb 2014
+##
+##
+###File: TaggEff_1907.out.root	data	BG
+###File: TaggEff_1908.out.root	data	amor
+###File: TaggEff_1909.out.root	data	
+###File: TaggEff_1910.out.root	data
+###File: TaggEff_1911.out.root	data	amor
+###File: TaggEff_1912.out.root	data	BG
+###
+File: TaggEff_1993.out.root	data	BG	15
+File: TaggEff_1994.out.root	data	para	15
+File: TaggEff_1995.out.root	data	perp	15
+File: TaggEff_1996.out.root	data	amor	15
+File: TaggEff_1997.out.root	data	BG	15
+#
+File: TaggEff_2029.out.root	data	BG	16
+File: TaggEff_2030.out.root	data	para	16
+File: TaggEff_2031.out.root	data	perp	16
+File: TaggEff_2032.out.root	data	amor	16
+File: TaggEff_2033.out.root	data	BG	16
+#
+File: TaggEff_2062.out.root	data	BG	17
+File: TaggEff_2063.out.root	data	para	17
+File: TaggEff_2064.out.root	data	perp	17
+File: TaggEff_2065.out.root	data	amor	17
+File: TaggEff_2066.out.root	data	BG	17
+#
+File: TaggEff_2101.out.root	data	BG	18
+File: TaggEff_2102.out.root	data	amor	18
+File: TaggEff_2103.out.root	data	BG	18
+#
+#File: TaggEff_2134.out.root	data	BG	
+#File: TaggEff_2135.out.root	data	amor	
+#File: TaggEff_2136.out.root	data	para	
+#File: TaggEff_2137.out.root	data	perp	
+#File: TaggEff_2138.out.root	data	BG		File does not complete properly. Bad file.
+#
+File: TaggEff_2159.out.root	data	BG	19
+File: TaggEff_2160.out.root	data	amor	19
+File: TaggEff_2161.out.root	data	para	19
+File: TaggEff_2162.out.root	data	perp	19
+File: TaggEff_2163.out.root	data	BG	19
+#
+File: TaggEff_2186.out.root	data	BG	20
+File: TaggEff_2187.out.root	data	perp	20
+File: TaggEff_2188.out.root	data	para	20
+File: TaggEff_2189.out.root	data	amor	20
+File: TaggEff_2190.out.root	data	BG	20
+#
+#File: TaggEff_2221.out.root	data		
+File: TaggEff_2222.out.root	data	BG	21
+File: TaggEff_2223.out.root	data	amor	21
+File: TaggEff_2224.out.root	data	para	21
+File: TaggEff_2225.out.root	data	perp	21
+File: TaggEff_2226.out.root	data	BG	21
+#
+File: TaggEff_2243.out.root	data	BG	22
+File: TaggEff_2244.out.root	data	para	22
+File: TaggEff_2245.out.root	data	perp	22
+File: TaggEff_2246.out.root	data	amor	22
+File: TaggEff_2247.out.root	data	BG	22
+
+#File: TaggEff_2285.out.root	data	BG	
+#File: TaggEff_2286.out.root	data	amor	
+#File: TaggEff_2287.out.root	data	BG		File does not save. Bad file.
+
+File: TaggEff_2313.out.root	data	BG	23
+File: TaggEff_2314.out.root	data	amor	23
+File: TaggEff_2315.out.root	data	para	23
+File: TaggEff_2316.out.root	data	perp	23
+File: TaggEff_2317.out.root	data	BG	23
+
+File: TaggEff_2347.out.root	data	BG	24
+File: TaggEff_2348.out.root	data	para	24
+File: TaggEff_2349.out.root	data	perp	24
+File: TaggEff_2350.out.root	data	amor	24
+File: TaggEff_2351.out.root	data	BG	24
+
+File: TaggEff_2378.out.root	data	BG	25
+File: TaggEff_2379.out.root	data	perp	25
+File: TaggEff_2380.out.root	data	para	25
+File: TaggEff_2381.out.root	data	amor	25
+File: TaggEff_2384.out.root	data	BG	25
+
+File: TaggEff_2417.out.root	data	BG	26
+File: TaggEff_2418.out.root	data	amor	26
+File: TaggEff_2419.out.root	data	perp	26
+File: TaggEff_2420.out.root	data	para	26
+File: TaggEff_2421.out.root	data	BG	26
+
+File: TaggEff_2482.out.root	data	BG	27
+File: TaggEff_2483.out.root	data	para	27
+File: TaggEff_2484.out.root	data	perp	27
+File: TaggEff_2485.out.root	data	amor	27
+File: TaggEff_2486.out.root	data	BG	27
+#
+File: TaggEff_2512.out.root	data	BG	28
+File: TaggEff_2513.out.root	data	amor	28
+#File: TaggEff_2514.out.root	data		28
+File: TaggEff_2515.out.root	data	para	28
+File: TaggEff_2516.out.root	data	perp	28
+File: TaggEff_2517.out.root	data	BG	28
+#
+#File: TaggEff_2549.out.root	data	BG	
+#File: TaggEff_2552.out.root	data	para	
+#File: TaggEff_2553.out.root	data	amor	
+#File: TaggEff_2554.out.root	data	BG	
+#
+#File: TaggEff_2551.out.root	data		
+#File: TaggEff_2550.out.root	data	para	
+#File: TaggEff_2555.out.root	data	BG	
+#File: TaggEff_2556.out.root	data	BG	
+#
+File: TaggEff_2595.out.root	data	BG	29
+File: TaggEff_2596.out.root	data	perp	29
+File: TaggEff_2597.out.root	data	para	29
+##File: TaggEff_2598.out.root	data		29
+File: TaggEff_2599.out.root	data	amor	29
+File: TaggEff_2600.out.root	data	BG	29
+#
+File: TaggEff_2622.out.root	data	BG	30
+File: TaggEff_2623.out.root	data	amor	30
+File: TaggEff_2624.out.root	data	para	30
+#File: TaggEff_2625.out.root	data		30
+File: TaggEff_2626.out.root	data	perp	30
+File: TaggEff_2627.out.root	data	BG	30
+#
+#File: TaggEff_2692.out.root	data	BG	
+##
+##
+## PolObs E dButanol - Eta 2Pi0 - Feb 2014
+##
+##
+File: TaggEff_2702.out.root	data	BG	31
+File: TaggEff_2703.out.root	data	amor	31
+File: TaggEff_2707.out.root	data	BG	31
+	
+File: TaggEff_2753.out.root	data	BG	32
+File: TaggEff_2754.out.root	data	amor	32
+File: TaggEff_2755.out.root	data	BG	32
+	
+File: TaggEff_2814.out.root	data	BG	33
+File: TaggEff_2815.out.root	data	amor	33
+File: TaggEff_2816.out.root	data	BG	33
+		
+File: TaggEff_2849.out.root	data	BG	34
+File: TaggEff_2850.out.root	data	amor	34
+File: TaggEff_2851.out.root	data	BG	34
+
+#File: TaggEff_2897.out.root	data	BG		File won't save. Bad file.
+#File: TaggEff_2898.out.root	data	amor	
+#File: TaggEff_2899.out.root	data	BG	
+#       	
+#
+### Carbon Background Measurent at 1557 MeV 1, April 2014
+#
+#
+#File: TaggEff_2941.out.root	data	BG	
+#File: TaggEff_2942.out.root	data	amor	
+#File: TaggEff_2943.out.root	data	BG	
+		 
+File: TaggEff_2979.out.root	data	BG	35
+File: TaggEff_2980.out.root	data	amor	35
+File: TaggEff_2988.out.root	data	BG	35
+		
+File: TaggEff_3208.out.root	data	BG	36
+File: TaggEff_3209.out.root	data	para	36
+File: TaggEff_3210.out.root	data	perp	36
+File: TaggEff_3211.out.root	data	amor	36
+File: TaggEff_3212.out.root	data	BG	36
+		
+File: TaggEff_3246.out.root	data	BG	37
+File: TaggEff_3247.out.root	data	perp	37
+File: TaggEff_3248.out.root	data	para	37
+File: TaggEff_3249.out.root	data	amor	37
+File: TaggEff_3250.out.root	data	BG	37
+	
+File: TaggEff_3289.out.root	data	BG	38
+File: TaggEff_3290.out.root	data	perp	38
+File: TaggEff_3291.out.root	data	para	38
+File: TaggEff_3292.out.root	data	amor	38
+File: TaggEff_3293.out.root	data	BG	38
+	
+File: TaggEff_3295.out.root	data	BG	39
+File: TaggEff_3296.out.root	data	para	39
+File: TaggEff_3297.out.root	data	perp	39
+File: TaggEff_3298.out.root	data	amor	39
+File: TaggEff_3299.out.root	data	BG	39
+
+File: TaggEff_3331.out.root	data	BG	40
+File: TaggEff_3332.out.root	data	para	40
+File: TaggEff_3333.out.root	data	perp	40
+File: TaggEff_3334.out.root	data	BG	40
+
+File: TaggEff_3376.out.root	data	BG	41
+File: TaggEff_3377.out.root	data	perp	41
+File: TaggEff_3378.out.root	data	para	41
+File: TaggEff_3379.out.root	data	BG	41
+#       
+#
+### G and E on the Proton runs 2, May 2014
+#
+#
+File: TaggEff_4282.out.root	data	BG	42
+File: TaggEff_4283.out.root	data	amor	42
+File: TaggEff_4284.out.root	data	para	42
+File: TaggEff_4285.out.root	data	perp	42
+File: TaggEff_4286.out.root	data	BG	42
+		 
+File: TaggEff_4330.out.root	data	BG	43
+File: TaggEff_4331.out.root	data	amor	43
+File: TaggEff_4332.out.root	data	perp	43
+File: TaggEff_4333.out.root	data	para	43
+File: TaggEff_4334.out.root	data	BG	43
+		
+File: TaggEff_4379.out.root	data	BG	44
+File: TaggEff_4380.out.root	data	perp	44
+File: TaggEff_4381.out.root	data	para	44
+File: TaggEff_4382.out.root	data	amor	44
+File: TaggEff_4383.out.root	data	BG	44
+		
+File: TaggEff_4483.out.root	data	BG	45
+File: TaggEff_4484.out.root	data	amor	45
+File: TaggEff_4485.out.root	data	para	45
+File: TaggEff_4486.out.root	data	perp	45
+File: TaggEff_4489.out.root	data	BG	45
+#
+#
+### March 2015
+#
+#
+File: TaggEff_8095.out.root	data	BG	46
+File: TaggEff_8096.out.root	data	amor	46
+File: TaggEff_8097.out.root	data	BG	46
+     
+File: TaggEff_8113.out.root	data	BG	47
+File: TaggEff_8116.out.root	data	amor	47
+File: TaggEff_8114.out.root	data	para	47
+File: TaggEff_8115.out.root	data	perp	47
+File: TaggEff_8117.out.root	data	BG	47
+     
+File: TaggEff_8212.out.root	data	BG	48
+##File: TaggEff_.out.root	data	amor	48
+##File: TaggEff_8215.out.root	data	para	48
+File: TaggEff_8213.out.root	data	perp	48
+File: TaggEff_8214.out.root	data	BG	48
+     
+File: TaggEff_8311.out.root	data	BG	49
+File: TaggEff_8312.out.root	data	amor	49
+File: TaggEff_8313.out.root	data	BG	49
+     
+File: TaggEff_8363.out.root	data	BG	50
+File: TaggEff_8364.out.root	data	amor	50
+File: TaggEff_8365.out.root	data	BG	50
+     
+File: TaggEff_8402.out.root	data	BG	51
+File: TaggEff_8403.out.root	data	amor	51
+File: TaggEff_8404.out.root	data	BG	51
+     
+File: TaggEff_8455.out.root	data	BG	52
+File: TaggEff_8456.out.root	data	amor	52
+File: TaggEff_8457.out.root	data	BG	52
+     
+File: TaggEff_8507.out.root	data	BG	53
+File: TaggEff_8508.out.root	data	amor	53
+File: TaggEff_8509.out.root	data	BG	53
+#
+#
+### May 2015 G & E on HButanol
+#
+#
+File: TaggEff_8577.out.root	data	BG	54
+File: TaggEff_8581.out.root	data	amor	54
+#File: TaggEff_8579.out.root	data	para	54  NOT SAVING IN ACQU!!!
+#File: TaggEff_8578.out.root	data	perp	54  NOT SAVING IN ACQU!!!
+File: TaggEff_8582.out.root	data	BG	54
+     
+File: TaggEff_8633.out.root	data	BG	55
+File: TaggEff_8634.out.root	data	amor	55
+File: TaggEff_8635.out.root	data	para	55
+File: TaggEff_8636.out.root	data	perp	55
+File: TaggEff_8637.out.root	data	BG	55
+     
+File: TaggEff_8672.out.root	data	BG	56
+File: TaggEff_8673.out.root	data	amor	56
+File: TaggEff_8674.out.root	data	BG	56
+     
+File: TaggEff_8730.out.root	data	BG	57
+File: TaggEff_8733.out.root	data	amor	57
+File: TaggEff_8732.out.root	data	para	57
+File: TaggEff_8731.out.root	data	perp	57
+File: TaggEff_8734.out.root	data	BG	57
+
+File: TaggEff_8774.out.root	data	BG	58
+File: TaggEff_8775.out.root	data	amor	58
+File: TaggEff_8778.out.root	data	para	58
+File: TaggEff_8776.out.root	data	perp	58
+File: TaggEff_8779.out.root	data	BG	58
+#     
+File: TaggEff_8820.out.root	data	BG	59
+File: TaggEff_8822.out.root	data	amor	59
+##File: TaggEff_8821.out.root	data	perp	59
+File: TaggEff_8823.out.root	data	BG	59
+#     
+File: TaggEff_8863.out.root	data	BG	60
+File: TaggEff_8864.out.root	data	amor	60
+File: TaggEff_8866.out.root	data	para	60
+File: TaggEff_8865.out.root	data	perp	60
+File: TaggEff_8867.out.root	data	BG	60
+     
+File: TaggEff_8919.out.root	data	BG	61
+File: TaggEff_8920.out.root	data	amor	61
+File: TaggEff_8922.out.root	data	para	61
+File: TaggEff_8921.out.root	data	perp	61
+File: TaggEff_8923.out.root	data	BG	61
+     
+File: TaggEff_8956.out.root	data	BG	62
+File: TaggEff_8959.out.root	data	amor	62
+File: TaggEff_8958.out.root	data	para	62
+File: TaggEff_8957.out.root	data	perp	62
+File: TaggEff_8960.out.root	data	BG	62
+     
+##File: TaggEff_8991.out.root	data	BG	  
+##File: TaggEff_8993.out.root	data	para	
+   
+##File: TaggEff_9028.out.root	data	BG	  
+##File: TaggEff_9029.out.root	data	BG	
+ 
+##File: TaggEff_9079.out.root	data	BG	  
+##File: TaggEff_9080.out.root	data	BG	
+      
+File: TaggEff_9135.out.root	data	BG	63
+File: TaggEff_9138.out.root	data	amor	63
+File: TaggEff_9137.out.root	data	para	63
+File: TaggEff_9136.out.root	data	perp	63
+File: TaggEff_9139.out.root	data	BG	63
+      
+File: TaggEff_9169.out.root	data	BG	64
+File: TaggEff_9170.out.root	data	amor	64
+File: TaggEff_9171.out.root	data	para	64
+File: TaggEff_9172.out.root	data	perp	64
+File: TaggEff_9173.out.root	data	BG	64
+#
+#
+### September 2015 G & E Proton
+#
+#
+#File: TaggEff_11073.out.root	data
+#File: TaggEff_11082.out.root	data
+#
+#File: TaggEff_11103.out.root	data
+#File: TaggEff_11104.out.root	data
+#File: TaggEff_11105.out.root	data
+#File: TaggEff_11107.out.root	data
+#
+File: TaggEff_11184.out.root	data	BG	65
+File: TaggEff_11185.out.root	data	perp	65
+File: TaggEff_11186.out.root	data	para	65
+File: TaggEff_11187.out.root	data	amor	65
+File: TaggEff_11188.out.root	data	BG	65
+#
+##### Elog entries for beamtime start here #####
+##
+#File: TaggEff_11232.out.root	data
+#File: TaggEff_11233.out.root	data
+File: TaggEff_11234.out.root	data	BG	66
+File: TaggEff_11235.out.root	data	para	66
+File: TaggEff_11236.out.root	data	perp	66
+File: TaggEff_11237.out.root	data	amor	66
+File: TaggEff_11238.out.root	data	BG	66
+#
+File: TaggEff_11285.out.root	data	BG	67
+File: TaggEff_11286.out.root	data	para	67
+File: TaggEff_11287.out.root	data	perp	67
+File: TaggEff_11288.out.root	data	amor	67
+File: TaggEff_11289.out.root	data	BG	67
+#
+File: TaggEff_11331.out.root	data	BG	68
+File: TaggEff_11332.out.root	data	amor	68
+File: TaggEff_11333.out.root	data	BG	68
+#
+File: TaggEff_11436.out.root	data	BG	69
+#File: TaggEff_11437.out.root	data	JUNK	69
+File: TaggEff_11438.out.root	data	amor	69
+File: TaggEff_11439.out.root	data	BG	69
+#
+File: TaggEff_11477.out.root	data	BG	70
+File: TaggEff_11478.out.root	data	perp	70
+File: TaggEff_11479.out.root	data	para	70
+File: TaggEff_11480.out.root	data	amor	70
+#File: TaggEff_11481.out.root	data	JUNK	70
+File: TaggEff_11482.out.root	data	BG	70
+#
+File: TaggEff_11531.out.root	data	BG	71
+File: TaggEff_11532.out.root	data	perp	71
+File: TaggEff_11533.out.root	data	para	71
+File: TaggEff_11534.out.root	data	amor	71
+File: TaggEff_11535.out.root	data	BG	71
+#
+File: TaggEff_11584.out.root	data	BG	72
+File: TaggEff_11585.out.root	data	para	72
+File: TaggEff_11586.out.root	data	perp	72
+File: TaggEff_11587.out.root	data	amor	72
+File: TaggEff_11588.out.root	data	BG	72
+#
+File: TaggEff_11636.out.root	data	BG	73
+#File: TaggEff_11637.out.root	data	para	73
+File: TaggEff_11638.out.root	data	para	73
+File: TaggEff_11639.out.root	data	perp	73
+File: TaggEff_11642.out.root	data	amor	73
+File: TaggEff_11640.out.root	data	BG	73
+#
+File: TaggEff_11689.out.root	data	BG	74
+#File: TaggEff_11690.out.root	data	amor	74
+#File: TaggEff_11691.out.root	data	amor	74
+#File: TaggEff_11692.out.root	data	amor	74
+#File: TaggEff_11693.out.root	data	amor	74
+#File: TaggEff_11694.out.root	data	amor	74
+#File: TaggEff_11695.out.root	data	amor	74
+#File: TaggEff_11696.out.root	data	amor	74
+File: TaggEff_11697.out.root	data	amor	74
+#File: TaggEff_11698.out.root	data	para	74
+#File: TaggEff_11699.out.root	data	para	74
+#File: TaggEff_11700.out.root	data	para	74
+#File: TaggEff_11701.out.root	data	para	74
+#File: TaggEff_11702.out.root	data	para	74
+#File: TaggEff_11703.out.root	data	para	74
+#File: TaggEff_11704.out.root	data	para	74
+File: TaggEff_11705.out.root	data	para	74
+File: TaggEff_11706.out.root	data	perp	74
+File: TaggEff_11707.out.root	data	BG	74
+#
+#File: TaggEff_11774.out.root	data	BG	75
+File: TaggEff_11775.out.root	data	BG	75
+File: TaggEff_11776.out.root	data	perp	75
+File: TaggEff_11777.out.root	data	para	75
+#File: TaggEff_11778.out.root	data	amor	75
+File: TaggEff_11779.out.root	data	amor	75
+File: TaggEff_11780.out.root	data	BG	75
+#
+#File: TaggEff_11836.out.root	data	JUNK	76
+File: TaggEff_11837.out.root	data	BG	76
+File: TaggEff_11838.out.root	data	perp	76
+File: TaggEff_11839.out.root	data	para	76
+File: TaggEff_11840.out.root	data	amor	76
+File: TaggEff_11841.out.root	data	BG	76
+#
+File: TaggEff_11925.out.root	data	BG	77
+File: TaggEff_11926.out.root	data	para	77
+File: TaggEff_11927.out.root	data	perp	77
+File: TaggEff_11928.out.root	data	amor	77
+File: TaggEff_11929.out.root	data	BG	77
+#
+#File: TaggEff_11975.out.root	data	BG	78
+File: TaggEff_11976.out.root	data	BG	78
+File: TaggEff_11977.out.root	data	para	78
+File: TaggEff_11978.out.root	data	perp	78
+File: TaggEff_11979.out.root	data	amor	78
+File: TaggEff_11980.out.root	data	BG	78
+#

@@ -1,0 +1,9 @@
+TA2DataServer: Starting configuration from file
+ TA2FileSource: Starting data file read
+
+ TA2FileSource: read 149 records from file scratch/TaggEff_14665.dat.xz
+TA2FileSource: Completed list of data files for analysis.
+
+ TA2DataServer: End of run detected
+ TA2DataServer: Shutdown Message received
+ 

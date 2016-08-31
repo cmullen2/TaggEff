@@ -1,0 +1,42 @@
+#-----------------------------------------------------------------------
+#--Author	JRM Annand   13th Jan 2004
+#--Update	JRM Annand... 1st Dec 2004
+#--Description
+#                *** Acqu++ <-> Root ***
+# Online/Offline Analysis of Sub-Atomic Physics Experimental Data 
+#
+# Parameter File: FPcommServer.Offline
+# Configuration File for DataServer (data input for analysis)
+#
+#-----------------------------------------------------------------------
+# Number of Input streams (sources of data), Record length to write data
+# and switch 0/1 = no/yes to control data write
+#              Number streams	Record Len	Save Data
+Input-Streams:	1		327680		0
+#
+# Optional directory spec. If not specified File-Names must contain the full
+# directory path
+#File-Directory: /mnt/storage1/2015-11_G_E_Neutron/
+File-Directory: /home/a2cb/acqu/acqu_user/scratch/
+#File-Directory: /mnt/storage2/2014-05_G_E_Proton/
+#File-Directory: /scratch/a2cb/
+#
+# Specify each input stream
+# From disk File, ACQU (Mk1) format, save any output to File (save=1)
+# Input data record length, Output data record length
+#
+#               Source	Format	Save?	RecLen	Buffers	Swap	MarkID
+Stream-Spec:	File	Mk2	0	327680	32	0	400
+#
+# Now the list of data Files to analyse
+#		File Name	1st rec	Last rec
+#
+#File-Name: CBTaggTAPS_12048.dat.xz 0 0
+#File-Name: CBTaggTAPS_12048.dat.xz 0 0
+#File-Name: TAPS_514.dat 0 0
+#File-Name: /scratch/a2cb/CBTaggTAPS_11262.dat 0 0
+#File-Name: /mnt/storage1/2013-11_G_E/CBTaggTAPS_1337.dat.xz 0 0
+#
+# END
+
+File-Name: CBTaggTAPS_12131.dat.xz 0 0

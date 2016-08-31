@@ -1,0 +1,8 @@
+ TA2DataServer: Starting configuration from file
+ TA2FileSource: Starting data file read
+
+TA2FileSource: read 21124 records from file /home/a2cb/acqu/acqu_user/scratch/CBTaggTAPS_12146.dat.xz
+ TA2FileSource: Completed list of data files for analysis.
+
+ TA2DataServer: End of run detected
+ TA2DataServer: Shutdown Message received
